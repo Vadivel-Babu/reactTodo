@@ -1,0 +1,58 @@
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.flex > h1{
+  font-size: 25px;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+label{
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+.content{
+  background-color: rgba(8, 245, 194, 0.459);
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+}
+.title,.description{
+  font-size: 20px;
+  margin: 10px 0;
+}
+.btn-wrapper{
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.btn-wrapper > button{
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 8px;
+  color: white;
+  margin-top: 10px;
+}
+.btn-edit{
+  background-color: rgb(11, 172, 131);
+}
+.btn-delete{
+  background-color: rgb(255, 129, 56);
+}
+select{
+  background-color: rgb(3, 146, 115);
+  color: white;
+  border: 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+.not{
+  background-color: rgb(255, 120, 120);
+}
+select:focus{
+  outline: none;
+}
